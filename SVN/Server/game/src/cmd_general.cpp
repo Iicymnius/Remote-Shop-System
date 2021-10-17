@@ -36,7 +36,6 @@ ACMD(do_open_range_npc)
 	LPSHOP shop = CShopManager::instance().Get(vnum);
 	if (!shop) return;
 
-	ch->SetViewingShopOwner(ch);
 	shop->AddGuest(ch, 0, false);
 }
 #endif
