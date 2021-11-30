@@ -44,14 +44,6 @@ window = {
 					),
 				},
 				{
-					"name" : "thinboard_circle",
-					"type" : "thinboard_circle",
-					"x" : 8,
-					"y" : 30,
-					"width" : 163,
-					"height" : 212,
-				},
-				{
 					"name" : "market",
 					"type" : "button",
 
